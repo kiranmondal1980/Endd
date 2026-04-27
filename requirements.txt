@@ -1,0 +1,52 @@
+# ============================================================
+# Nifty50 Options Scalper — Python Dependencies
+# ============================================================
+
+# --- Broker SDKs ---
+kiteconnect==5.0.1
+SmartApi-Python==1.3.9
+pyotp==2.9.0                # For Angel One TOTP 2FA
+
+# --- Data & Analysis ---
+pandas==2.2.2
+numpy==1.26.4
+pandas-ta==0.3.14b           # Technical indicators (RSI, etc.)
+scipy==1.13.0
+
+# --- Backtesting ---
+backtrader==1.9.78.123
+matplotlib==3.8.4            # Backtest plot output
+
+# --- HTTP / WebSockets ---
+requests==2.32.2
+websocket-client==1.8.0
+aiohttp==3.9.5               # Async HTTP for concurrent operations
+
+# --- Environment & Config ---
+python-dotenv==1.0.1
+
+# --- Telegram Notifications ---
+python-telegram-bot==21.3
+
+# --- Scheduling ---
+schedule==1.2.2
+APScheduler==3.10.4
+
+# --- Logging & Monitoring ---
+loguru==0.7.2
+
+# --- Database ---
+SQLAlchemy==2.0.30           # ORM over SQLite (upgradable to Postgres)
+
+# --- Security ---
+cryptography==42.0.8         # Encrypt API keys at rest
+
+# --- Concurrency ---
+# concurrent.futures is stdlib; included for clarity
+# asyncio is stdlib
+
+# --- Utilities ---
+pytz==2024.1                 # Indian timezone (Asia/Kolkata)
+python-dateutil==2.9.0
+tabulate==0.9.0              # Pretty tables in logs/reports
+rich==13.7.1                 # Pretty console output for dev
